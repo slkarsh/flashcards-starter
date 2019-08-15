@@ -15,9 +15,9 @@ describe ('Turn', function() {
         expect(turn).to.be.an.instanceof(Turn);
     });
 
-    it.skip('should store an answer', function() {
+    it.skip('should store a guess', function() {
         const turn = new Turn('moo');
-        expect(turn.answer).to.equal('moo');
+        expect(turn.guess).to.equal('moo');
     });
 
     it.skip('should correspond to a playing card', function() {
