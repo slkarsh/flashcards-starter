@@ -12,7 +12,7 @@ class Round {
     }
 
     takeTurn(guess) {
-        let currentCard = this.currentCard();
+        let currentCard = this.returnCurrentCard();
         const turn = new Turn(guess, currentCard)
         this.turnCount++
         if (turn.evaluateGuess() === false) {
