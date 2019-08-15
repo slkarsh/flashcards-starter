@@ -7,7 +7,7 @@ class Round {
        this.incorrectGuesses = [];
     }
 
-    currentCard() {
+    returnCurrentCard() {
         return this.deck.cards[this.turnCount];
     }
 

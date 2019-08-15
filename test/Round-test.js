@@ -113,7 +113,7 @@ describe('Round', function() {
     expect(round.calculatePercentCorrect()).to.equal(50);
    });
 
-   it.only('should tell the user how many correct answers they had when the round ends', function() {
+   it.skip('should tell the user how many correct answers they had when the round ends', function() {
     const card1 = new Card({id: 1, question: 'What is Robbie\'s favorite animal', answers: ['sea otter', 'pug', 'capybara'], correctAnswer: 'sea otter'});
     const card2 = new Card({id: 14, question: 'What organ is Khalid missing?', answers: ['spleen', 'appendix', 'gallbladder'], correctAnswer: 'gallbladder'});
     const card3 = new Card({id: 12, question: 'What is Travis\'s favorite stress reliever?', answers: ['listening to music', 'watching Netflix', 'playing with bubble wrap'], correctAnswer: 'playing with bubble wrap'});
