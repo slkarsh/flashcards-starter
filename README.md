@@ -4,6 +4,9 @@
 
 On the top right corner of this page, click the **Fork** button.
 
+## Game Play
+![flashcards demo](https://user-images.githubusercontent.com/46407593/63132807-a286b600-bf7f-11e9-95d0-277013b00412.gif)
+
 ## Setup
 
 Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
