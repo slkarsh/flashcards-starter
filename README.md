@@ -9,7 +9,7 @@ This Flashcards game is designed to be played using the Command Line Interface. 
 
 ## Setup
 
-Fork this repository and then clone it down into your own machine.
+Clone this repository dowmn and paste the link into your chosen directory in your terminal. You can also fork this if you'd like!
 
 Once you are inside the game's directory, run:
 ```node index.js```
